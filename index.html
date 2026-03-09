@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rounded Idea Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>✨ Idea Board</h1>
+    <div id="stats">0 Items</div>
+</header>
+
+<div class="container">
+    <div class="input-section">
+        <div class="input-group">
+            <input type="text" id="name-input" placeholder="Your Name" aria-label="Author name">
+            <input type="text" id="idea-input" placeholder="Your brilliant idea..." aria-label="Idea content">
+        </div>
+        <button id="add-btn">Add to Board</button>
+    </div>
+
+    <div id="board" class="board">
+        <!-- Cards will appear here -->
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
